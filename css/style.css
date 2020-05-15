@@ -17,6 +17,14 @@ h1{
     margin: 0;
 }
 
+h3{
+    margin: 0;
+}
+
+p{
+    margin-top: 0;
+}
+
 ul{
     list-style: none; 
 }
@@ -40,6 +48,18 @@ a{
     width: 600px;
     float: right;
     padding-right: 10px;
+}
+
+td{
+    padding: 20px 40px 20px 0;
+}
+
+th{
+    text-align: left;
+}
+
+#paragraph{
+    color: blue;
 }
 
 footer{
