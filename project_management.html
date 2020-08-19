@@ -95,6 +95,13 @@
                 <img src="images/design4.jpg" width="500px">
                 <img src="images/design5.jpg" width="500px">
                 
+                <h3>Laser Cut Result</h3>
+                <p>The hole for the slide switch is not the right fit so I had to file the hole to make it bigger. Otherwise the laser cut went smoothly.</p>
+                <img src="images/Laser1.jpg" width="400px">
+                <img src="images/Laser2.jpg" width="400px">
+                <img src="images/Laser3.jpg" width="400px">
+                <img src="images/Laser4.jpg" width="400px">
+                
                 <h3>3D print crystal</h3>
                 <p>Even though the base is laser cut, I included it in the 3D print model for added accuracy. I sketched the polygon and extruded it. The base of the crystal base height is 30mm with 10 angle. Top crystal height is 40mm with 30 angle.</p>
                 <img src="images/crystal1.jpg" width="400px">
@@ -105,11 +112,59 @@
                 The crystal is hollowed out as well.
                 <img src="images/crystal4.jpg" width="400px">
                 
+                <h3>3D Print Result</h3>
+                <img src="images/3Dprint1.jpg" width="400px">
+                <img src="images/3Dprint2.jpg" width="400px">
+                
                 <h3>Coding Arduino</h3>
-                <p>For</p>
+                <p>I'm not very familiar with coding and wiring so I tried to test out different codes and wiring that I managed to find online from Google to Youtube.</p>
+                <img src="images/arduino_code1.jpg" width="700px">
+                <br>
+                <br>
+                <p>At first I tested out the LED lights instead of RGB light.</p>
+                <img src="images/arduino_code2.jpg" width="700px">
+                <p>Slowly I added pushbutton in and most of the tutorial online just show how to turn LED on by pressing the pushbutton. If released, it will go off. This is not what I wanted. So I went on searching how to toggle LED, which is the on and off state and this is what I needed.</p>
+                <img src="images/arduino_code3.jpg" width="700px">
+                <p>Next, I moved on to using slide switch and with RGB lights. However, with this current code, when I off the RBG light it can only turn off after the whole colour set is finished. When I tried it with Arduino IDE, I was able to off the light immediately.</p>
+                <img src="images/arduino_code4.jpg" width="700px">
+                <!-- <p>After consulting Mr Chew, I managed to get the code that I wanted for my crystal mood lamp which is to have random colours appearing and being able to switch it off instantly.</p>
+               <img src="images/arduino_code5.jpg" width="700px"> -->
+                
+                <h3>Testing out RGB Light</h3>
+                <img src="images/TestLight1.JPG" width="400px">
+                <video width="400px" height="auto" controls muted>
+                <source src="images/TestLight2.mov">
+                Your browser does not support the video tag.
+                </video>
+                
+                <h3>Hero Shot</h3>
+                <video width="400px" height="auto" controls muted>
+                <source src="images/Light_Crystal.mov">
+                Your browser does not support the video tag.
+                </video>
+                
+                <video width="400px" height="auto" controls muted>
+                <source src="images/Light_NoCrystal.MOV">
+                Your browser does not support the video tag.
+                </video>
+                
+                <h3>Reflection and things I have learned</h3>
+                <p>I learned it the hard way that bad soldering can change the outcome of the wiring whether it will work or not. Previously when I tried to put in either 5V or Ground wire, it seems to not work, the Arduino UNO's light will turn off on its own. Turns out I accidentally soldered the 5V and Grounded wire together on the slide switch, so I had to resolder it. </p>
+                <img src="images/slideswitch_soldering.jpg" width="400px" alt="SlideSwitchSolder">
+                
+                
+                <p>Another problem I faced is also not properly putting the rubber insulation tube on the wire. Some parts of the wire were exposed which may lead to short circuit if they touch each other. Thus, I also had to reapply the rubber insulation tube.</p>
+                <img src="images/rubber1.jpg" width="400px" alt="RubberInsulationTubeWiring">
+                
+                <p>Working through this project, I learned the importance of planning. Planning well can save time and prevent headache. Previously I tried to 3D print the base but it failed. After receiving advice, I realised it is better to laser cut it since it will be quite big.</p>
+                <img src="images/fail1.jpg"  width="400px" alt="failed3Dprint">
+                <img src="images/fail2.jpg"  width="400px" alt="failed3Dprint2">
+                <p>Measurement itself is also important and part of the planning stage. I'm quite thankful for the failed 3D print box because I tried to put in my Arduino UNO with the wiring and I realised it is actually not tall enough. Because of this, I'm able to make sure my current laser cut plywood base is able to fit in everything.</p>
+                <img src="images/inside.jpg" width="400px" alt="CurrentBaseInsides">
+                
                 
                 <h3>Group project</h3>
-                <p>For group project, each of us are to test the properties of 3D printing. I'm in charge of doing bridging. I sketched out the trapezium shape then used mirror. Then I extruded the model and made holes inbetween starting from the smallest bridging at the bottom to the largest bridging at the top.</p>
+                <p>For group project, each of us are to test the properties of 3D printing. I'm in charge of doing bridging. Bridging is the horizontal gap between 2 points, the longer it is, the unstable it will become as there is nothing to support it. I sketched out the trapezium shape then used mirror. Then I extruded the model and made holes inbetween starting from the smallest bridging at the bottom to the largest bridging at the top.</p>
                 <img src="images/bridging1.jpg" width="400px">
                 <img src="images/bridging2.jpg" width="400px">
                 <img src="images/bridging3.jpg" width="400px">
