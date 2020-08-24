@@ -70,6 +70,13 @@ footer{
     margin-top: 20px;
 }
 
+.download{
+  background-color:#4CAF50;
+  border: none;
+  color: white;
+  text-align: center;
+}
+
 
 /***********FABLAB***********/
 .fablab{
